@@ -1,0 +1,113 @@
+
+--- DESIGN ---
+- Cores:
+    - Tema Dark (tons suaves e escuros)
+        Background principal:
+            Hex: #2D2E32
+            RGB: rgb(45, 46, 50)
+            (Um tom de cinza escuro com um toque de azul, suave aos olhos)
+
+        Texto principal:
+            Hex: #E5E5E5
+            RGB: rgb(229, 229, 229)
+            (Cinza claro, excelente contraste sem ser branco puro)
+
+        Elementos destacados (botões, links, etc.):
+            Hex: #5865F2
+            RGB: rgb(88, 101, 242)
+            (Um azul suave que pode trazer cor e vida aos elementos interativos)
+
+        Texto secundário/placeholder:
+            Hex: #A1A1A6
+            RGB: rgb(161, 161, 166)
+            (Cinza claro para textos ou informações menos relevantes)
+
+        Bordas/Sombras sutis:
+            Hex: #3B3C41
+            RGB: rgb(59, 60, 65)
+            (Levemente mais escuro que o fundo, ideal para bordas e sombras)
+    
+
+    
+    - Tema Light (tons suaves e claros)
+        Background principal:
+            Hex: #F4F4F7
+            RGB: rgb(244, 244, 247)
+            (Um tom de branco quebrado que suaviza o visual)
+
+        Texto principal:
+            Hex: #2E2E33
+            RGB: rgb(46, 46, 51)
+            (Cinza muito escuro, suave, ao invés de preto puro)
+
+        Elementos destacados (botões, links, etc.): 
+            Hex: #647DEE
+            RGB: rgb(100, 125, 238)
+            (Um azul vibrante e mais suave que o tema dark, para manter harmonia)
+        
+        Texto secundário/placeholder:
+            Hex: #8E8E93
+            RGB: rgb(142, 142, 147)
+            (Cinza médio, bom para informações menos importantes)
+
+        Bordas/Sombras sutis:
+            Hex: #D1D1D6
+            RGB: rgb(209, 209, 214)
+            (Levemente mais escuro que o fundo, ideal para separar seções)
+
+
+
+- Fontes:
+    - Outfit { => Fonte principal
+        font-family: "Outfit", system-ui;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    - Londrina Outline { => Fonte só contorno
+        font-family: "Londrina Outline", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    - Lato { => Fonte para legendas
+        font-family: "Lato", sans-serif;
+    }
+
+- Mouse:
+    - Cursor personalizado (Esse que uso no pc)
+    - Efeito no background onde o mouse passa
+    
+
+
+
+--- MONTAGEM ---
+- Header:
+    - Ocupar 100% da tela
+    - fixo
+    - links com animação de "underline" com hover
+    - underline ao ser selecionado
+    - Logo
+    - Nav (Home, projects, skills, contact)
+    - Contact – Um botão separado, como você mencionou, pode abrir um pop-up ou modal com suas informações de contato (email, LinkedIn, GitHub, etc.) e um formulário simples para o envio de mensagens.
+
+
+- Main:
+    - Home:
+        - Foto de perfil
+        - Nome
+        - "Cargo"
+
+    - Sobre mim:
+        - Dividir a tela em dois (horizontalmente)
+        - Título "Sobre mim" a esquerda
+        - Conteudo a esquerda
+
+        TO DO:
+        - Animação de Scroll
+        - Page de projetos 
+        - Adicionar a tela de contatos 
+
+
+

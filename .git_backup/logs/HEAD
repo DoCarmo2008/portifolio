@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 8338b0664d6a0afd94395594b2c8b8f73a62e6fe Gabriel do Carmo Batista <nigh8tbr@gmail.com> 1727662060 -0300	commit (initial): creating from scratch
+8338b0664d6a0afd94395594b2c8b8f73a62e6fe 0000000000000000000000000000000000000000 Gabriel do Carmo Batista <nigh8tbr@gmail.com> 1727662072 -0300	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 8338b0664d6a0afd94395594b2c8b8f73a62e6fe Gabriel do Carmo Batista <nigh8tbr@gmail.com> 1727662072 -0300	Branch: renamed refs/heads/master to refs/heads/main
+8338b0664d6a0afd94395594b2c8b8f73a62e6fe 2f78b135a6918e26e6ff2c6e7e213d9a2530246a Gabriel do Carmo Batista <nigh8tbr@gmail.com> 1727665351 -0300	commit: changes
+2f78b135a6918e26e6ff2c6e7e213d9a2530246a 163d7e83b1c9a92ae63d2d0de53e0c2926bd4ad9 Gabriel do Carmo Batista <nigh8tbr@gmail.com> 1727837723 -0300	commit: sobre mim added
+163d7e83b1c9a92ae63d2d0de53e0c2926bd4ad9 ee543314796a71668d2c40b0814ce7f94ac3e9e4 Gabriel do Carmo Batista <nigh8tbr@gmail.com> 1727897255 -0300	commit: added some styles to about page
+ee543314796a71668d2c40b0814ce7f94ac3e9e4 81a1deaf486d7a0924f0caab6b1c617a1efae1a0 Gabriel do Carmo Batista <nigh8tbr@gmail.com> 1727899897 -0300	commit: Animations added and initialazing with Js
