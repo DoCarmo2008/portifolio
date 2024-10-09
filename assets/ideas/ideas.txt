@@ -103,11 +103,24 @@
         - Dividir a tela em dois (horizontalmente)
         - Título "Sobre mim" a esquerda
         - Conteudo a esquerda
+        - Destaque as localizações
+
+    - Tecnologias:
+        - Alinhado no meio 
+        - Svg no meio (só para estilizar)
+        - As tecnologias alinhadas no meio em formato de cards
+        - Efeito de afundar (no hover) 
+
+    - Projetos 
+        - Efeito de aumentar (hover)
+        - Sombreado azul 
+        -
+
 
         TO DO:
         - Animação de Scroll
-        - Page de projetos 
         - Adicionar a tela de contatos 
+        - Trocar de theme
 
 
 

@@ -577,6 +577,7 @@ main {
 .projetos-w-detail {
     justify-content: end;
     width: 25%;
+    text-decoration: none;
 }
 
 /* PROJETOS - HEADER */
@@ -585,11 +586,13 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .projeto-title {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;  
+    
 }
 
 /* PROJETOS - MAIN */
@@ -598,6 +601,12 @@ main {
     flex-direction: column;
     width: 100%;
     gap:15px;
+    
+}
+
+.projeto-main img {
+    width: 100%;
+    height: 150px;
 }
 
 .projeto-desc {
