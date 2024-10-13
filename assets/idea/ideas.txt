@@ -118,9 +118,6 @@
 
 
         TO DO:
-        - Adicionar a tela de contatos (Trabalhando nisso)
-        - Animação de Scroll
-        - Trocar de theme
         - Responsividade
         
 

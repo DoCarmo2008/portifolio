@@ -255,7 +255,7 @@ header nav {
     background-color: var(--background-light);
     flex-direction: column;
     width: 50%;
-    height: 70%;
+    height: 80%;
     border-radius: 15px;
     gap: 30px;
 }
@@ -300,24 +300,31 @@ header nav {
 
 .informations-contact {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
 }
 
+.name-getter, .email-getter {
+    width: 100%;
+}
+
+.inputs-to-mail {
+    
+    width: 80%;
+}
+
+
 .email-content-contacts {
-    margin-top: 40px;
     display: flex;
 }
 
 .email-sender-cfg {
     display: flex;
     width: 100%;
-    margin-left: 80px;
 }
 
 .email-sender-cfg textarea {
     height: 120px;
-    width: 85%;
     padding-top: 20px;
 }
 
@@ -337,25 +344,30 @@ header nav {
     font-size: 1.1em;
     border-radius: 30px;
     transition: 0.6s;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .button-to-send button:hover {
-    transform: translate(0px, -2px);
+    transform: translate(0px, -1px);
     background-color: var(--secondary-text-dark);
     color: var(--background-dark);
 }
 
 .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
+
 
 .placeholders {
     position: absolute;
     top: 10px;
-    left: 10px;
     transition: all 0.3s ease;
+    left: 11%;
 }
+
 
 .inputs-to-mail:focus + .placeholders,
 .inputs-to-mail:not(:placeholder-shown) + .placeholders {
@@ -397,17 +409,21 @@ header nav {
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.349);
     padding: 10px 12px ;
-    transition: 0.6s;
     cursor: pointer;
     align-items: center;
     justify-content: center;
 }
 
-.list-of-contact nav ul li:nth-child(1):hover {
+.github-link, .linkedin-link {
+    color: var(--background-dark);
+    transition: 0.6s;
+}
+
+.github-link:hover {
     color: purple;
 }
 
-.list-of-contact nav ul li:nth-child(2):hover {
+.linkedin-link:hover {
     color: #5865F2;
 }
 
@@ -422,7 +438,7 @@ main {
 
 /* HOME - PAGE */
 .home-page {
-    height:100vh;
+    height:101vh;
 }
 
 .home-content {
@@ -435,6 +451,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    margin-right: 20px;
     align-items: left;
     justify-content: center;
 }
@@ -602,6 +619,9 @@ main {
 
 
 /* HABILIDADES - PAGE */
+.habilidades-page {
+    height: 100vh;
+}
 
 .skills {
     display: flex;
@@ -871,6 +891,19 @@ main {
     border: 1px solid yellow;
 }
 
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 
 
 

@@ -55,27 +55,33 @@
                     <i class="bi bi-x"></i>
                 </div>
             </div> <!-- Colocar título e o X -->
+
             <div class="contacts-main">
                 <div class="formularios-contacts">
-                    <form action=" https://formspree.io/f/mpwzzqqa" method="POST" id="emailForm"> 
+                    <form action=" https://formspree.io/f/mpwzzqqa" method="POST" id="emailForm">
                         <div class="informations-contact">
-                            <div class="form-group">
-                                <input type="text" id="name" name="name" class="inputs-to-mail" placeholder=" " required>
+
+                            <div class="form-group name-getter">
+                                <input type="text" id="name" name="name" class="inputs-to-mail" placeholder=" "
+                                    required>
                                 <label for="name" class="placeholders">Nome</label>
                             </div>
 
-                            <div class="form-group">
-                                <input type="text" id="email" name="email" class="inputs-to-mail" placeholder=" " required>
+                            <div class="form-group email-getter">
+                                <input type="text" id="email" name="email" class="inputs-to-mail" placeholder=" "
+                                    required>
                                 <label for="email" class="placeholders">Email</label>
+                            </div>
+
+                            <div class="email-content-contacts">
+                                <div class="form-group email-sender-cfg">
+                                    <textarea id="message" name="message" class="inputs-to-mail" placeholder=" "
+                                        required></textarea>
+                                    <label for="message" class="placeholders">Mensagem</label>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="email-content-contacts">
-                                <div class="form-group email-sender-cfg">
-                                    <textarea id="message" name="message" class="inputs-to-mail" placeholder=" " required></textarea>
-                                    <label for="message" class="placeholders">Mensagem</label>
-                                </div>
-                        </div>
 
                         <div class="button-to-send">
                             <button>Enviar</button>
@@ -89,10 +95,14 @@
                     <nav>
                         <ul>
                             <li class="contacts-apps">
-                                <i class="bi bi-github"></i>
+                                <a href="https://github.com/DoCarmo2008" target="_blank" class="github-link">
+                                    <i class="bi bi-github"></i>
+                                </a>
                             </li>
                             <li class="contacts-apps">
-                                <i class="bi bi-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/gabriel-do-carmo-batista" target="_blank" class="linkedin-link">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -125,7 +135,7 @@
             </div>
         </div>
 
-        <div class="sobre-page" id="sobre">
+        <div class="sobre-page hidden" id="sobre">
 
             <div class="about-div about-div-title">
                 <div class="title-about">
@@ -172,7 +182,7 @@
 
         </div>
 
-        <div class="habilidades-page" id="habilidades">
+        <div class="habilidades-page hidden" id="habilidades">
             <div class="skills">
                 <div class="skills-header">
                     <div class="title-skills">
@@ -231,7 +241,7 @@
             </div>
         </div>
 
-        <div class="projetos-page" id="projetos">
+        <div class="projetos-page hidden" id="projetos">
             <div class="projects-header">
                 <h1>Projetos</h1>
                 <div>
