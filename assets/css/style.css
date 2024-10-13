@@ -996,6 +996,10 @@ main {
     }
 
     .projetos {
-        width: 55%;
+        width: 60%; 
+    }
+
+    .coding-skills {
+        width: 40%; 
     }
 }
