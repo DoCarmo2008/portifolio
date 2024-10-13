@@ -51,3 +51,49 @@ spanCamb.addEventListener('mouseenter', () => {
 spanCamb.addEventListener('mouseleave', () => {
     cambInfo.style.display = 'none';
 });
+
+
+
+
+/* CONTATO TAB */
+const tabContact = document.querySelector('.contacts');
+const contactBtn = document.querySelector('.contact-link');
+const closeBtn = document.querySelector('.bi-x');
+
+contactBtn.addEventListener('click', () => {
+    tabContact.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click', () => {
+    tabContact.style.display = 'none';
+});
+
+
+/* VERIFICADOR DO EMAIL */
+const emailForms = document.getElementById('emailForm');
+
+    emailForms.addEventListener('submit', function(event) {
+    const emailInput = document.getElementById('email').value;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Verifica se o email está no formato correto
+    if (!emailRegex.test(emailInput)) {
+        event.preventDefault(); // Impede o envio do formulário
+        alert('Por favor, insira um endereço de email válido.');
+    }
+});
+
+
+
+/* THEME */
+const actualSvg = document.querySelector('.bi-moon-fill');
+const lightTheme = document.querySelector('.light-theme');
+const darkTheme = document.querySelector('.dark-theme');
+
+
+lightTheme.addEventListener('click', () => {
+    window.alert('Trabalhando nisso ainda...');
+});
+darkTheme.addEventListener('click', () => {
+    window.alert('Já está no dark theme 😉');
+});

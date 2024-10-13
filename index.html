@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <header>
         <nav>
             <div class="logo-contacts">
@@ -43,6 +44,62 @@
             </ul>
         </nav>
     </header>
+
+    <div class="contacts"> <!-- Div para ocupar tela -->
+        <div class="contacts-content"> <!-- Div com o conteúdo -->
+            <div class="contacts-header">
+                <div class="title-contacts">
+                    <h1>Contato</h1>
+                </div>
+                <div class="close-simbol-contacts">
+                    <i class="bi bi-x"></i>
+                </div>
+            </div> <!-- Colocar título e o X -->
+            <div class="contacts-main">
+                <div class="formularios-contacts">
+                    <form action=" https://formspree.io/f/mpwzzqqa" method="POST" id="emailForm"> 
+                        <div class="informations-contact">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="inputs-to-mail" placeholder=" " required>
+                                <label for="name" class="placeholders">Nome</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="email" name="email" class="inputs-to-mail" placeholder=" " required>
+                                <label for="email" class="placeholders">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="email-content-contacts">
+                                <div class="form-group email-sender-cfg">
+                                    <textarea id="message" name="message" class="inputs-to-mail" placeholder=" " required></textarea>
+                                    <label for="message" class="placeholders">Mensagem</label>
+                                </div>
+                        </div>
+
+                        <div class="button-to-send">
+                            <button>Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- Forms para enviar email -->
+
+            <div class="contacts-footer">
+                <div class="list-of-contact">
+                    <nav>
+                        <ul>
+                            <li class="contacts-apps">
+                                <i class="bi bi-github"></i>
+                            </li>
+                            <li class="contacts-apps">
+                                <i class="bi bi-linkedin"></i>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!-- Colocar outras formas de contato -->
+        </div>
+    </div>
 
     <main>
         <div class="home-page" id="home">
@@ -186,10 +243,10 @@
 
             <div class="projects-main">
                 <div class="projects-list">
-
                     <nav>
                         <ul>
-                            <a class="projetos projetos-w-detail" href="https://github.com/DoCarmo2008/TCC" target="_blank">
+                            <a class="projetos projetos-w-detail" href="https://github.com/DoCarmo2008/TCC"
+                                target="_blank">
                                 <div class="projetos-header">
                                     <div class="projeto-title">
                                         <h3>Ctrl+Play Bank</h3>
@@ -221,7 +278,8 @@
                                 </div>
                             </a>
 
-                            <a class="projetos projetos-w-detail" href="https://docarmo2008.github.io/Starbucks-Webpage/" target="_blank">
+                            <a class="projetos projetos-w-detail"
+                                href="https://docarmo2008.github.io/Starbucks-Webpage/" target="_blank">
                                 <div class="projetos-header">
                                     <div class="projeto-title">
                                         <h3>Starbucks</h3>
@@ -236,7 +294,10 @@
                                     <img src="./assets/images/starbucks.png" alt="Imagem do Projeto">
 
                                     <div class="projeto-desc">
-                                        <p>Site da empresa Starbucks feita por mim, com intuitos educacionais e para treinamentos sem fins lucrativos. Com objetivo de reproduzir o site original utilizando conhecimentos de desenvolvimento web, sendo possível acessar áreas do site como menu, promoções e entre outras coisas..</p>
+                                        <p>Site da empresa Starbucks feita por mim, com intuitos educacionais e para
+                                            treinamentos sem fins lucrativos. Com objetivo de reproduzir o site original
+                                            utilizando conhecimentos de desenvolvimento web, sendo possível acessar
+                                            áreas do site como menu, promoções e entre outras coisas..</p>
                                     </div>
                                 </div>
 
@@ -249,7 +310,8 @@
                                 </div>
                             </a>
 
-                            <a class="projetos projetos-w-detail" href="https://docarmo2008.github.io/McDonalds-Site" target="_blank">
+                            <a class="projetos projetos-w-detail" href="https://docarmo2008.github.io/McDonalds-Site"
+                                target="_blank">
                                 <div class="projetos-header">
                                     <div class="projeto-title">
                                         <h3>McDonald's</h3>

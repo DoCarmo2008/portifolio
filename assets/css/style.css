@@ -237,6 +237,181 @@ header nav {
 }
 
 
+/* CONTACTS TAB */
+
+.contacts {
+    z-index: 1000;
+    display: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.contacts-content {
+    display: flex;
+    background-color: var(--background-light);
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    border-radius: 15px;
+    gap: 30px;
+}
+
+.contacts-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.contacts-header div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.title-contacts {
+    width: 60%;
+}
+
+.close-simbol-contacts {
+    width: 40%;
+    padding-right: 30px;
+    font-size: 2em;
+}
+
+.close-simbol-contacts i:hover {
+    cursor: pointer;
+}
+
+
+/* CONTACT MAIN */
+
+.contacts-main input, textarea {
+    border:1px solid rgba(0, 0, 0, 0.336);
+    box-shadow: 0em 0.3em 0.7em rgba(0, 0, 0, 0.199);
+    height: 50px;
+    border-radius: 6px;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+.informations-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.email-content-contacts {
+    margin-top: 40px;
+    display: flex;
+}
+
+.email-sender-cfg {
+    display: flex;
+    width: 100%;
+    margin-left: 80px;
+}
+
+.email-sender-cfg textarea {
+    height: 120px;
+    width: 85%;
+    padding-top: 20px;
+}
+
+.button-to-send {
+    display: flex;
+    justify-content: center;
+}
+
+.button-to-send button {
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: var(--highlighted-elements-dark);
+    color: var(--text-dark);
+    font-family: "Outfit", system-ui;
+    font-size: 1.1em;
+    border-radius: 30px;
+    transition: 0.6s;
+    margin-top: 20px;
+}
+
+.button-to-send button:hover {
+    transform: translate(0px, -2px);
+    background-color: var(--secondary-text-dark);
+    color: var(--background-dark);
+}
+
+.form-group {
+    position: relative;
+}
+
+.placeholders {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: all 0.3s ease;
+}
+
+.inputs-to-mail:focus + .placeholders,
+.inputs-to-mail:not(:placeholder-shown) + .placeholders {
+    top: -10px;
+    font-size: 0.8em;
+    color: black;
+    background-color: var(--background-light);
+}
+
+
+
+
+/* CONTACT FOOTER  */
+.contacts-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-of-contact {
+    padding-top: 10px;
+    border-top: 1px solid rgba(128, 128, 128, 0.247);
+    width: 50%;
+}
+
+.list-of-contact nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.list-of-contact nav ul li i {
+    font-size: 1.4em;
+}
+
+.list-of-contact nav ul li {
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    padding: 10px 12px ;
+    transition: 0.6s;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-of-contact nav ul li:nth-child(1):hover {
+    color: purple;
+}
+
+.list-of-contact nav ul li:nth-child(2):hover {
+    color: #5865F2;
+}
+
+
 /* MAIN */
 
 main {
