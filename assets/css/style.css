@@ -619,9 +619,6 @@ main {
 
 
 /* HABILIDADES - PAGE */
-.habilidades-page {
-    height: 100vh;
-}
 
 .skills {
     display: flex;
@@ -723,7 +720,8 @@ main {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-top: 40px;
+    margin-top: 60px;
+    align-items: center;
 }
 
 .projects-header div i {
@@ -906,4 +904,98 @@ main {
 }
 
 
+/* RESPOSIVIDADE */
+@media only screen and (max-width: 768px) {
 
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .lighting-blur {
+        display: none;
+    }
+    
+    
+    /* MAIN */
+
+    /* HOME PAGE */
+    .home-text-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-text-content p {
+        font-size: 10pt;
+    }
+
+
+    .home-text-content p span {
+        font-size: 1em;
+        font-family: "Lato", sans-serif;
+        font-weight: 800;
+        color: var(--highlighted-elements-dark);
+    }
+
+    /* SOBRE MIM PAGE */
+    .title-about {
+        font-size: 1.5rem;
+    }
+
+    .title-about h1 i{
+        font-size: 25pt;
+    }
+
+    .content-about h4 {
+        font-size: 1rem;
+    }
+    
+
+    .content-about p {
+        line-height: 2;
+        font-size: 0.8em;
+    }
+
+    .info-box-bh p, .info-box-ctrlplay p , .info-box-cambridge p {
+        line-height: 1.2;
+    }
+
+
+    /* HABILIDADES */
+
+
+    .title-skills h1 {
+        font-size: 48px;
+    }
+
+    .skills-header p {
+        font-size: 1em;    
+    }
+
+    .skills nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .coding-skills {
+        width: 35%;
+    }
+
+
+    /* PROJETOS PAGE */
+    .projects-header h1 {
+        font-size: 48px;
+    }
+
+    .projects-header div i {
+        font-size: 1em;
+    }
+
+
+    .projects-list nav ul {
+        flex-wrap: wrap;
+    }
+
+    .projetos {
+        width: 55%;
+    }
+}
