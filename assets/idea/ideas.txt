@@ -117,8 +117,6 @@
         -
 
 
-        TO DO:
-        - Responsividade
         
 
 
