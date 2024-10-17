@@ -59,6 +59,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Outfit", system-ui;
     overflow-x: hidden;
